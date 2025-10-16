@@ -1,9 +1,9 @@
-# 🧠 Data Ingestion ETL Pipeline
+#Data Ingestion ETL Pipeline
 
 ### Task 1 — Continuous CSV Ingestion (`continuous-files-T4`)
 - Automatically finds new CSV files in `Incoming-data/`
 - Cleans and transforms them into a consistent format
-- Adds new products and updates existing ones in PostgreSQL
+- Adds new products and updates existing ones in PostgreSQL\NEW Products id--> inserted ,existing ones -->just get  updated
 - Moves processed files to `Archived-data/`
 - Updates the report each time new data is added
 
