@@ -1,0 +1,112 @@
+[
+    {
+        "User ID": 2797,
+        "Product ID": 1129,
+        "Product Name": "T-shirt",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 26,
+        "Rating": 4.769621,
+        "Color": "Yellow",
+        "Size": "M"
+    },
+    {
+        "User ID": 1223,
+        "Product ID": 819,
+        "Product Name": "Jeans",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 26,
+        "Rating": 1.931614,
+        "Color": "Black",
+        "Size": "XL"
+    },
+    {
+        "User ID": 2605,
+        "Product ID": 1170,
+        "Product Name": "Sweater",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 10,
+        "Rating": 0.858086,
+        "Color": "Yellow",
+        "Size": "L"
+    },
+    {
+        "User ID": 1784,
+        "Product ID": 1109,
+        "Product Name": "Shoes",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 15,
+        "Rating": 4.092291,
+        "Color": "Black",
+        "Size": "M"
+    },
+    {
+        "User ID": 2070,
+        "Product ID": 1002,
+        "Product Name": "Sweater",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 49,
+        "Rating": 0.24609,
+        "Color": "Black",
+        "Size": "XL"
+    },
+    {
+        "User ID": 1751,
+        "Product ID": 1135,
+        "Product Name": "T-shirt",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 114,
+        "Rating": 1.877418,
+        "Color": "Yellow",
+        "Size": "M"
+    },
+    {
+        "User ID": 1436,
+        "Product ID": 812,
+        "Product Name": "T-shirt",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 79,
+        "Rating": 1.298843,
+        "Color": "White",
+        "Size": "S"
+    },
+    {
+        "User ID": 1764,
+        "Product ID": 960,
+        "Product Name": "T-shirt",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 22,
+        "Rating": 1.394406,
+        "Color": "Black",
+        "Size": "L"
+    },
+    {
+        "User ID": 1973,
+        "Product ID": 996,
+        "Product Name": "Sweater",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 75,
+        "Rating": 0.504482,
+        "Color": "Blue",
+        "Size": "XL"
+    },
+    {
+        "User ID": 2912,
+        "Product ID": 1005,
+        "Product Name": "T-shirt",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 57,
+        "Rating": 1.60944,
+        "Color": "Black",
+        "Size": "XL"
+    }
+]
