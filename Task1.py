@@ -17,6 +17,10 @@ data_clean.rename(columns={
     'Product Name': 'product_name',
     'Brand': 'brand',
     'Quantity_Sold': 'quantity_sold'
+    ,'Price': 'price',
+    'Rating': 'rating',
+    'Color': 'color',
+    'Size': 'size'
 }, inplace=True)
 
 
