@@ -9,14 +9,6 @@ def extract_data(filepath):
 
 def list_incoming_files(incoming_dir='Incoming-data'):
     p = Path(incoming_dir)
-    files = []
-    for f in p.iterdir():
-        if f.is_file() and f.suffix.lower() in ['.csv', '.json']:
-            files.append(f)
-    return sorted(files)
-
-def list_incoming_files(incoming_dir='Incoming-data'):
-    p = Path(incoming_dir)
     return sorted([f for f in Path(incoming_dir).iterdir() if f.is_file() and f.suffix.lower() == '.csv'])
 
 def read_file(path):
