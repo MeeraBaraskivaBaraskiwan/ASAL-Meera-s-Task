@@ -2,18 +2,18 @@ import requests
 import json
 from pathlib import Path
 from datetime import date
+from typing import Optional, Dict, Any, List
 
-
-def fetch_dummyjson():
+def fetch_dummyjson()-> Optional[Path]:
     print("\nFetching real fashion products from DummyJSON API ")
  
     try:
         response = requests.get('https://dummyjson.com/products/category/womens-dresses')
-        data = response.json()
+        data: Dict[str, Any] = response.json()
         
-        products = data.get('products', [])
+        products: List[Dict[str, Any]] =data.get('products', [])
         print(f"Fetched {len(products)} products from external API")
-        transformed = []
+        transformed : List[Dict[str, Any]] = []
         for p in products:
             product = {
                 'User ID': 5000,
@@ -28,12 +28,12 @@ def fetch_dummyjson():
             }
             transformed.append(product)
         
-        output_dir = Path('Incoming-data')
+        output_dir : Path = Path('Incoming-data')
         output_dir.mkdir(exist_ok=True)
         
-        json_file = output_dir / f"external_api_{date.today().isoformat()}.json"
+        json_file: Path =  output_dir / f"external_api_{date.today().isoformat()}.json"
         
-        output_data = {
+        output_data: Dict[str, Any] ={
             'source': 'dummyjson_api',
             'products': transformed
         }

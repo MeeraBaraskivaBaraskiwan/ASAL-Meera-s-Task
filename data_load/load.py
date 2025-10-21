@@ -1,6 +1,13 @@
 from sqlalchemy import create_engine,text
+from sqlalchemy.engine import Engine
+from typing import Union
+import pandas as pd
 
-def load_data_to_db(df, table_name, engine_or_url='postgresql+psycopg2://postgres:12345678@localhost/fashion_db'):
+def load_data_to_db(df: pd.DataFrame,  table_name: str,
+ engine_or_url: Union[str, Engine] = 'postgresql+psycopg2://postgres:12345678@localhost/fashion_db') -> Engine:
+    
+
+    engine: Engine 
     if hasattr(engine_or_url, 'connect'):
         engine = engine_or_url
     else:
@@ -13,7 +20,7 @@ def load_data_to_db(df, table_name, engine_or_url='postgresql+psycopg2://postgre
         'Size': 'size'
     }, inplace=True)
 
-    temp_table = f"{table_name}_temp"
+    temp_table: str =f"{table_name}_temp"
     df.to_sql(temp_table, engine, if_exists='replace', index=False)
    
 

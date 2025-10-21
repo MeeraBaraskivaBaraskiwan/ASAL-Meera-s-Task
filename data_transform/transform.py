@@ -1,9 +1,14 @@
 
-def normalize_columns(df):
-    column_mapping = {}
+import pandas as pd
+from typing import Optional, Dict
+
+
+def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
+   
+    column_mapping: Dict[str, str] = {}
     
     for col in df.columns:
-        col_lower = col.lower().replace('_', ' ').replace('-', ' ')
+        col_lower: str = col.lower().replace('_', ' ').replace('-', ' ')
         
         if 'user' in col_lower and 'id' in col_lower:
             column_mapping[col] = 'User ID'
@@ -34,7 +39,7 @@ def normalize_columns(df):
     return df
 
 
-def transform_data(df, source_file=None):
+def transform_data(df: pd.DataFrame, source_file: Optional[str] = None) -> pd.DataFrame:
 
     df = normalize_columns(df)
 

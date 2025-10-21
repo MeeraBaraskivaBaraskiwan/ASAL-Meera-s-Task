@@ -1,0 +1,112 @@
+[
+    {
+        "User ID": 2657,
+        "Product ID": 971,
+        "Product Name": "Jeans",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 46,
+        "Rating": 0.28337,
+        "Color": "Yellow",
+        "Size": "XL"
+    },
+    {
+        "User ID": 1334,
+        "Product ID": 1023,
+        "Product Name": "Sweater",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 20,
+        "Rating": 1.327609,
+        "Color": "Black",
+        "Size": "M"
+    },
+    {
+        "User ID": 1887,
+        "Product ID": 924,
+        "Product Name": "Dress",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 73,
+        "Rating": 3.520168,
+        "Color": "Blue",
+        "Size": "S"
+    },
+    {
+        "User ID": 2824,
+        "Product ID": 891,
+        "Product Name": "T-shirt",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 120,
+        "Rating": 2.459838,
+        "Color": "Red",
+        "Size": "M"
+    },
+    {
+        "User ID": 2298,
+        "Product ID": 851,
+        "Product Name": "Shoes",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 109,
+        "Rating": 0.976544,
+        "Color": "Blue",
+        "Size": "L"
+    },
+    {
+        "User ID": 1979,
+        "Product ID": 1136,
+        "Product Name": "T-shirt",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 61,
+        "Rating": 0.940875,
+        "Color": "Black",
+        "Size": "L"
+    },
+    {
+        "User ID": 1807,
+        "Product ID": 1127,
+        "Product Name": "Shoes",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 82,
+        "Rating": 0.724954,
+        "Color": "Yellow",
+        "Size": "S"
+    },
+    {
+        "User ID": 1307,
+        "Product ID": 946,
+        "Product Name": "Jeans",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 42,
+        "Rating": 2.208952,
+        "Color": "Black",
+        "Size": "L"
+    },
+    {
+        "User ID": 2949,
+        "Product ID": 872,
+        "Product Name": "Shoes",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 34,
+        "Rating": 1.89104,
+        "Color": "Red",
+        "Size": "L"
+    },
+    {
+        "User ID": 2294,
+        "Product ID": 884,
+        "Product Name": "T-shirt",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 100,
+        "Rating": 4.21697,
+        "Color": "Blue",
+        "Size": "L"
+    }
+]

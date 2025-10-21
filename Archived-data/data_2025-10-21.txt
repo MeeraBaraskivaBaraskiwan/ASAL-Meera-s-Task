@@ -1,0 +1,21 @@
+User ID,Product ID,Product Name,Brand,Category,Price,Rating,Color,Size
+26,1,Jeans,Gucci,Men's Fashion,56,3.629,White,L
+12,2,Dress,Zara,Women's Fashion,117,1.453,White,M
+44,3,Jeans,Gucci,Men's Fashion,13,4.441,Yellow,M
+95,4,Dress,H&M,Men's Fashion,106,2.869,Yellow,L
+36,5,T-shirt,Nike,Men's Fashion,10,4.571,White,S
+51,6,Jeans,Adidas,Women's Fashion,16,3.195,Blue,M
+62,7,Dress,Gucci,Women's Fashion,117,4.906,Red,M
+15,8,T-shirt,Adidas,Men's Fashion,31,4.801,White,S
+82,9,Shoes,H&M,Men's Fashion,11,4.095,Black,XL
+21,10,Shoes,Gucci,Men's Fashion,96,2.571,Yellow,M
+46,11,Sweater,Nike,Women's Fashion,24,2.061,Blue,XL
+92,12,Shoes,Gucci,Women's Fashion,47,1.208,Black,L
+92,13,Shoes,Gucci,Women's Fashion,24,1.186,Black,S
+60,14,Dress,Zara,Women's Fashion,10,1.336,Yellow,L
+35,15,T-shirt,Zara,Women's Fashion,84,1.26,Yellow,M
+36,16,Shoes,H&M,Women's Fashion,50,3.724,Yellow,M
+72,17,Shoes,Zara,Men's Fashion,71,1.859,Black,M
+93,18,T-shirt,H&M,Men's Fashion,38,1.005,Red,XL
+41,19,Dress,Adidas,Women's Fashion,36,2.567,White,L
+80,20,Sweater,H&M,Men's Fashion,51,1.466,White,M

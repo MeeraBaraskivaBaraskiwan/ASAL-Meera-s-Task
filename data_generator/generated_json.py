@@ -2,17 +2,18 @@ import json
 from pathlib import Path
 import random
 from datetime import date
+from typing import List, Dict, Any
 
-OUT = Path("Incoming-data")
+OUT : Path = Path("Incoming-data")
 OUT.mkdir(exist_ok=True)
 
-def gen_json(day, rows=10):
-    brands = ['Adidas','H&M','Zara','Gucci','Nike']
-    products = ['Dress','Shoes','T-shirt','Jeans','Sweater']
-    colors = ['Black','White','Red','Yellow','Blue']
-    sizes = ['S','M','L','XL']
+def generate_json(day:date, rows:int=10) -> None:
+    brands : List[str] =['Adidas','H&M','Zara','Gucci','Nike']
+    products: List[str] = ['Dress','Shoes','T-shirt','Jeans','Sweater']
+    colors: List[str] =['Black','White','Red','Yellow','Blue']
+    sizes : List[str] = ['S','M','L','XL']
 
-    data = []
+    data : List[Dict[str, Any]] = []
     for _ in range(rows):
         data.append({
             "User ID": random.randint(1000,3000),
@@ -26,10 +27,10 @@ def gen_json(day, rows=10):
             "Size": random.choice(sizes)
         })
 
-    fname = OUT / f"data_{day.isoformat()}.json"
+    fname: Path = OUT / f"data_{day.isoformat()}.json"
     with open(fname, 'w') as f:
         json.dump(data, f, indent=4)
     print("Created mock JSON file:", fname)
 
 if __name__ == "__main__":
-    gen_json(date.today())
+    generate_json(date.today())

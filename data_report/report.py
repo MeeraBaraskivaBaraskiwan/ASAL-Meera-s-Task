@@ -1,6 +1,7 @@
 import pandas as pd
+from sqlalchemy.engine import Engine
 
-def generate_report(engine):
+def generate_report(engine: Engine) -> pd.DataFrame:
     query = """
     SELECT brand, product_name, total_quantity
     FROM (
@@ -20,11 +21,12 @@ def generate_report(engine):
     ORDER BY brand;
     """
 
-    report = pd.read_sql_query(query, engine)
+    report: pd.DataFrame = pd.read_sql_query(query, engine)
     print("\nMost Sold Product per Brand:")
     print(report)
 
     report.to_sql('most_sold_products', engine, if_exists='replace', index=False)
+    return report
 
 
 
