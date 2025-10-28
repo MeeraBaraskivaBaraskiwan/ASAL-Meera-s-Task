@@ -8,33 +8,30 @@ from data_report.report import generate_report
 import shutil
 import pandas as pd  
 from typing import List
+from config import config
 
-INCOMING = Path("Incoming-data")
-ARCHIVE = Path("Archived-data")
-TABLE = 'fashion_sales'
-DB_URL = 'postgresql+psycopg2://postgres:12345678@localhost/fashion_db'
 
 
 def process() -> None:
     
-    engine: Engine = create_engine(DB_URL)
+    engine: Engine = create_engine(config.get_database_url())
 
-    ARCHIVE.mkdir(exist_ok=True)
+    config.ARCHIVE_DIR.mkdir(exist_ok=True)
 
-    files: List[Path] = list_incoming_files(INCOMING)
+    files: List[Path] = list_incoming_files(config.INCOMING_DIR)
     if not files:
-        print("No files in Incoming-data")
+        print(f"No files in{config.INCOMING_DIR}")
         return
 
     for f in files:
         print("Processing", f.name)
         df_raw: pd.DataFrame = read_file(f)
         df: pd.DataFrame =  transform_data(df_raw, source_file=f.name)
-        load_data_to_db(df, TABLE, engine)
+        load_data_to_db(df,config.TABLE_NAME, engine)
        
-        dest = ARCHIVE / f.name
+        dest = config.ARCHIVE_DIR / f.name
         shutil.move(str(f), str(dest))
-        print("Moved", f.name, "to Archived-data")
+        print(f"Moved {f.name} to {config.ARCHIVE_DIR}")
 
     generate_report(engine)
 

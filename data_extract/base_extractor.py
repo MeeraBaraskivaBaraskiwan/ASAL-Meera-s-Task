@@ -7,12 +7,12 @@ class BaseExtractor(ABC):
     
     @abstractmethod
     def extract(self, filepath: Path) -> pd.DataFrame:
-        pass
+         raise NotImplementedError("extract() must be implemented by subclasses of BaseExtractor")
     
     @abstractmethod
     def can_handle(self, filepath: Path) -> bool:
-        pass
+         raise NotImplementedError("can_handle() must be implemented by subclasses of BaseExtractor")
 
     @abstractmethod
     def get_supported_extensions(self) -> List[str]:
-         pass
+         raise NotImplementedError("get_supported_extensions() must be implemented by subclasses of BaseExtractor")
