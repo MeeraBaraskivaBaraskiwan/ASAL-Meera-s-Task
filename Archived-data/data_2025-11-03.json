@@ -1,0 +1,35 @@
+[
+    {
+        "User ID": 1862,
+        "Product ID": 871,
+        "Product Name": "Sweater",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 72,
+        "Rating": 4.456545,
+        "Color": "Yellow",
+        "Size": "S"
+    },
+    {
+        "User ID": 1689,
+        "Product ID": 1039,
+        "Product Name": "Dress",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 83,
+        "Rating": 0.402628,
+        "Color": "Blue",
+        "Size": "XL"
+    },
+    {
+        "User ID": 1800,
+        "Product ID": 870,
+        "Product Name": "Shoes",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 86,
+        "Rating": 4.952112,
+        "Color": "Blue",
+        "Size": "S"
+    }
+]

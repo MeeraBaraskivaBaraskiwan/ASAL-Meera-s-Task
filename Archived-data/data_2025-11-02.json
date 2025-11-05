@@ -1,0 +1,35 @@
+[
+    {
+        "User ID": 2397,
+        "Product ID": 1071,
+        "Product Name": "Jeans",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 15,
+        "Rating": 2.731592,
+        "Color": "Black",
+        "Size": "L"
+    },
+    {
+        "User ID": 2094,
+        "Product ID": 1020,
+        "Product Name": "Jeans",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 22,
+        "Rating": 3.655967,
+        "Color": "Black",
+        "Size": "M"
+    },
+    {
+        "User ID": 2683,
+        "Product ID": 1081,
+        "Product Name": "Sweater",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 54,
+        "Rating": 1.423471,
+        "Color": "Yellow",
+        "Size": "S"
+    }
+]

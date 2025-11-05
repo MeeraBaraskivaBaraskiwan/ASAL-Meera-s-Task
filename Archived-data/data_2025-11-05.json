@@ -1,0 +1,57 @@
+[
+    {
+        "User ID": 1969,
+        "Product ID": 877,
+        "Product Name": "Shoes",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 105,
+        "Rating": 1.919484,
+        "Color": "Red",
+        "Size": "L"
+    },
+    {
+        "User ID": 1495,
+        "Product ID": 1146,
+        "Product Name": "Shoes",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 68,
+        "Rating": 4.943242,
+        "Color": "Black",
+        "Size": "L"
+    },
+    {
+        "User ID": 2897,
+        "Product ID": 1103,
+        "Product Name": "Jeans",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 65,
+        "Rating": 0.194049,
+        "Color": "Blue",
+        "Size": "M"
+    },
+    {
+        "User ID": 1950,
+        "Product ID": 992,
+        "Product Name": "T-shirt",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 80,
+        "Rating": 2.980615,
+        "Color": "Blue",
+        "Size": "M"
+    },
+    {
+        "User ID": 2269,
+        "Product ID": 1093,
+        "Product Name": "Jeans",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 41,
+        "Rating": 0.90476,
+        "Color": "Red",
+        "Size": "L"
+    }
+]

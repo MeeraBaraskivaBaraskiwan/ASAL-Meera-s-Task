@@ -1,0 +1,60 @@
+{
+  "source": "dummyjson_api",
+  "products": [
+    {
+      "User ID": 5000,
+      "Product ID": 50177,
+      "Product Name": "Black Women's Gown",
+      "Brand": "External Brand",
+      "Category": "Women's Fashion",
+      "Price": 129,
+      "Rating": 3.64,
+      "Color": "Multi",
+      "Size": "M"
+    },
+    {
+      "User ID": 5000,
+      "Product ID": 50178,
+      "Product Name": "Corset Leather With Skirt",
+      "Brand": "External Brand",
+      "Category": "Women's Fashion",
+      "Price": 89,
+      "Rating": 3.05,
+      "Color": "Multi",
+      "Size": "M"
+    },
+    {
+      "User ID": 5000,
+      "Product ID": 50179,
+      "Product Name": "Corset With Black Skirt",
+      "Brand": "External Brand",
+      "Category": "Women's Fashion",
+      "Price": 79,
+      "Rating": 4.52,
+      "Color": "Multi",
+      "Size": "M"
+    },
+    {
+      "User ID": 5000,
+      "Product ID": 50180,
+      "Product Name": "Dress Pea",
+      "Brand": "External Brand",
+      "Category": "Women's Fashion",
+      "Price": 49,
+      "Rating": 4.88,
+      "Color": "Multi",
+      "Size": "M"
+    },
+    {
+      "User ID": 5000,
+      "Product ID": 50181,
+      "Product Name": "Marni Red & Black Suit",
+      "Brand": "External Brand",
+      "Category": "Women's Fashion",
+      "Price": 179,
+      "Rating": 4.48,
+      "Color": "Multi",
+      "Size": "M"
+    }
+  ]
+}

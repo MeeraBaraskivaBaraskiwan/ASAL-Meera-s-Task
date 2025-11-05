@@ -43,6 +43,22 @@ def transform_data(df: pd.DataFrame, source_file: Optional[str] = None) -> pd.Da
 
     df = normalize_columns(df)
 
+    missing_critical = []
+    if 'Brand' not in df.columns:
+        missing_critical.append('Brand')
+    if 'Product Name' not in df.columns:
+        missing_critical.append('Product Name')
+    
+    
+    if missing_critical:
+        raise ValueError(missing_critical)
+    
+    if len(df.columns) <= 2:
+        print(f"Warning: Only {len(df.columns)} columns detected")
+        print(f"Available columns: {list(df.columns)}")
+        if len(df.columns) == 1:
+            raise ValueError("Possible delimiter issue - only 1 column detected")
+
     if 'User ID' not in df.columns:
         df['User ID'] = 9999
     if 'Category' not in df.columns:
@@ -51,8 +67,39 @@ def transform_data(df: pd.DataFrame, source_file: Optional[str] = None) -> pd.Da
         df['Color'] = 'Various'
     if 'Size' not in df.columns:
         df['Size'] = 'Standard'
+    if 'Product Name' not in df.columns:
+        df['Product Name'] = 'Unknown Product'
+    if 'Brand' not in df.columns:
+        df['Brand'] = 'Unknown Brand'
+
+    if 'Price' in df.columns:
+        df['Price'] = pd.to_numeric(df['Price'], errors='coerce')
+        df['Price'] = df['Price'].fillna(50).astype(int)
+    else:
+        df['Price'] = 50
+
+    if 'Rating' in df.columns:
+        df['Rating'] = pd.to_numeric(df['Rating'], errors='coerce')
+        df['Rating'] = df['Rating'].fillna(4.0).clip(1.0, 5.0)
+    else:
+        df['Rating'] = 4.0
+
+    df['User ID'] = pd.to_numeric(df['User ID'], errors='coerce').fillna(9999).astype(int)
+    
+    if 'Product ID' not in df.columns or df['Product ID'].isna().all():
+        df['Product ID'] = range(90000, 90000 + len(df))
+    else:
+        df['Product ID'] = pd.to_numeric(df['Product ID'], errors='coerce')
+        mask = df['Product ID'].isna()
+        if mask.any():
+            df.loc[mask, 'Product ID'] = range(90000, 90000 + mask.sum())
+    df['Product ID'] = df['Product ID'].astype(int)
+
 
     data_clean = df.dropna(subset=['Brand', 'Product Name'])
+
+    if len(data_clean) == 0:
+        raise ValueError("No valid data rows after cleaning")
     data_clean['Quantity_Sold'] = 1
 
     data_clean.rename(columns={
@@ -61,7 +108,11 @@ def transform_data(df: pd.DataFrame, source_file: Optional[str] = None) -> pd.Da
         'Quantity_Sold': 'quantity_sold',
         'Product ID': 'Product ID', 
         'User ID': 'User ID',
-        'Category': 'Category'
+        'Category': 'Category',
+        'Price': 'price',
+        'Rating': 'rating',
+        'Color': 'color',
+        'Size': 'size'
     }, inplace=True)
 
     if source_file:

@@ -1,0 +1,112 @@
+[
+    {
+        "User ID": 2592,
+        "Product ID": 906,
+        "Product Name": "T-shirt",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 77,
+        "Rating": 3.421574,
+        "Color": "Yellow",
+        "Size": "M"
+    },
+    {
+        "User ID": 1916,
+        "Product ID": 1042,
+        "Product Name": "T-shirt",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 21,
+        "Rating": 4.023018,
+        "Color": "Black",
+        "Size": "L"
+    },
+    {
+        "User ID": 1078,
+        "Product ID": 1149,
+        "Product Name": "Sweater",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 28,
+        "Rating": 3.394443,
+        "Color": "Black",
+        "Size": "XL"
+    },
+    {
+        "User ID": 2442,
+        "Product ID": 901,
+        "Product Name": "Jeans",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 27,
+        "Rating": 0.289919,
+        "Color": "Black",
+        "Size": "S"
+    },
+    {
+        "User ID": 2585,
+        "Product ID": 1113,
+        "Product Name": "Shoes",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 94,
+        "Rating": 0.110105,
+        "Color": "Black",
+        "Size": "L"
+    },
+    {
+        "User ID": 2803,
+        "Product ID": 921,
+        "Product Name": "Jeans",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 18,
+        "Rating": 4.522678,
+        "Color": "Black",
+        "Size": "L"
+    },
+    {
+        "User ID": 2774,
+        "Product ID": 967,
+        "Product Name": "Jeans",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 120,
+        "Rating": 4.41251,
+        "Color": "White",
+        "Size": "L"
+    },
+    {
+        "User ID": 1053,
+        "Product ID": 1028,
+        "Product Name": "Sweater",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 116,
+        "Rating": 1.02194,
+        "Color": "White",
+        "Size": "M"
+    },
+    {
+        "User ID": 1569,
+        "Product ID": 852,
+        "Product Name": "Jeans",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 108,
+        "Rating": 4.071606,
+        "Color": "Red",
+        "Size": "XL"
+    },
+    {
+        "User ID": 2829,
+        "Product ID": 928,
+        "Product Name": "Sweater",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 112,
+        "Rating": 1.42693,
+        "Color": "Black",
+        "Size": "S"
+    }
+]
