@@ -1,0 +1,21 @@
+User ID,Product ID,Product Name,Brand,Category,Price,Rating,Color,Size
+78,1,T-shirt,Zara,Women's Fashion,73,2.685,White,S
+18,2,Sweater,Nike,Women's Fashion,27,3.309,Yellow,L
+94,3,Dress,Adidas,Women's Fashion,50,2.184,Blue,M
+80,4,Shoes,Gucci,Women's Fashion,120,2.515,Red,L
+24,5,Sweater,H&M,Women's Fashion,120,1.283,Red,M
+64,6,Jeans,H&M,Women's Fashion,67,3.958,Blue,M
+26,7,Jeans,Gucci,Men's Fashion,112,2.223,Blue,L
+25,8,Shoes,Nike,Women's Fashion,42,3.975,Yellow,S
+43,9,Shoes,Adidas,Men's Fashion,30,3.915,Black,XL
+14,10,T-shirt,Zara,Men's Fashion,61,4.068,Black,M
+15,11,Sweater,H&M,Men's Fashion,104,4.201,Black,XL
+83,12,Shoes,Adidas,Women's Fashion,14,2.079,Yellow,XL
+96,13,Sweater,Adidas,Men's Fashion,73,3.843,White,L
+77,14,Shoes,Gucci,Women's Fashion,94,2.029,White,M
+14,15,T-shirt,Gucci,Men's Fashion,31,4.723,Yellow,M
+62,16,T-shirt,Zara,Women's Fashion,24,3.364,White,L
+26,17,Dress,H&M,Women's Fashion,83,4.304,White,XL
+22,18,Jeans,Nike,Men's Fashion,110,1.518,Red,S
+50,19,T-shirt,H&M,Men's Fashion,120,4.413,Black,S
+75,20,Jeans,Nike,Men's Fashion,16,4.481,Black,M

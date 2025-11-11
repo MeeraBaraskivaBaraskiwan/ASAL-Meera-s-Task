@@ -1,0 +1,112 @@
+[
+    {
+        "User ID": 1309,
+        "Product ID": 856,
+        "Product Name": "Jeans",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 23,
+        "Rating": 0.059923,
+        "Color": "Black",
+        "Size": "M"
+    },
+    {
+        "User ID": 1731,
+        "Product ID": 1173,
+        "Product Name": "Sweater",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 50,
+        "Rating": 1.844143,
+        "Color": "Yellow",
+        "Size": "L"
+    },
+    {
+        "User ID": 1135,
+        "Product ID": 1128,
+        "Product Name": "T-shirt",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 24,
+        "Rating": 3.417172,
+        "Color": "Black",
+        "Size": "XL"
+    },
+    {
+        "User ID": 1572,
+        "Product ID": 974,
+        "Product Name": "Shoes",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 79,
+        "Rating": 4.201143,
+        "Color": "Black",
+        "Size": "XL"
+    },
+    {
+        "User ID": 1789,
+        "Product ID": 844,
+        "Product Name": "T-shirt",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 88,
+        "Rating": 2.889722,
+        "Color": "Blue",
+        "Size": "XL"
+    },
+    {
+        "User ID": 2014,
+        "Product ID": 1157,
+        "Product Name": "Sweater",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 79,
+        "Rating": 0.720121,
+        "Color": "Yellow",
+        "Size": "L"
+    },
+    {
+        "User ID": 2400,
+        "Product ID": 992,
+        "Product Name": "Shoes",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 79,
+        "Rating": 3.431263,
+        "Color": "Yellow",
+        "Size": "XL"
+    },
+    {
+        "User ID": 1360,
+        "Product ID": 993,
+        "Product Name": "T-shirt",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 55,
+        "Rating": 4.635982,
+        "Color": "Yellow",
+        "Size": "L"
+    },
+    {
+        "User ID": 1612,
+        "Product ID": 1101,
+        "Product Name": "Shoes",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 22,
+        "Rating": 0.006531,
+        "Color": "Yellow",
+        "Size": "L"
+    },
+    {
+        "User ID": 1984,
+        "Product ID": 938,
+        "Product Name": "Sweater",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 120,
+        "Rating": 4.676671,
+        "Color": "Black",
+        "Size": "M"
+    }
+]

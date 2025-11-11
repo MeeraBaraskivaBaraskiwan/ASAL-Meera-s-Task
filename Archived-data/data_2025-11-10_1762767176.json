@@ -1,0 +1,112 @@
+[
+    {
+        "User ID": 1529,
+        "Product ID": 1049,
+        "Product Name": "Sweater",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 83,
+        "Rating": 0.278563,
+        "Color": "Yellow",
+        "Size": "L"
+    },
+    {
+        "User ID": 2611,
+        "Product ID": 920,
+        "Product Name": "T-shirt",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 74,
+        "Rating": 4.696749,
+        "Color": "Yellow",
+        "Size": "XL"
+    },
+    {
+        "User ID": 2742,
+        "Product ID": 1169,
+        "Product Name": "T-shirt",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 99,
+        "Rating": 4.396709,
+        "Color": "Blue",
+        "Size": "L"
+    },
+    {
+        "User ID": 2664,
+        "Product ID": 1084,
+        "Product Name": "Dress",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 63,
+        "Rating": 3.446771,
+        "Color": "Black",
+        "Size": "L"
+    },
+    {
+        "User ID": 2904,
+        "Product ID": 899,
+        "Product Name": "Dress",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 68,
+        "Rating": 1.165622,
+        "Color": "Blue",
+        "Size": "S"
+    },
+    {
+        "User ID": 1252,
+        "Product ID": 942,
+        "Product Name": "Jeans",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 22,
+        "Rating": 0.708305,
+        "Color": "Yellow",
+        "Size": "L"
+    },
+    {
+        "User ID": 2262,
+        "Product ID": 908,
+        "Product Name": "Dress",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 38,
+        "Rating": 2.721384,
+        "Color": "Yellow",
+        "Size": "XL"
+    },
+    {
+        "User ID": 1117,
+        "Product ID": 1174,
+        "Product Name": "Shoes",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 45,
+        "Rating": 4.295356,
+        "Color": "Black",
+        "Size": "L"
+    },
+    {
+        "User ID": 2018,
+        "Product ID": 1191,
+        "Product Name": "T-shirt",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 11,
+        "Rating": 4.026794,
+        "Color": "Yellow",
+        "Size": "XL"
+    },
+    {
+        "User ID": 2037,
+        "Product ID": 844,
+        "Product Name": "T-shirt",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 63,
+        "Rating": 2.476658,
+        "Color": "Black",
+        "Size": "XL"
+    }
+]

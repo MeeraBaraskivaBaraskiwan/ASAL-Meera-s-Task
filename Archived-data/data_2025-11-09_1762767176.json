@@ -1,0 +1,112 @@
+[
+    {
+        "User ID": 1223,
+        "Product ID": 1068,
+        "Product Name": "Sweater",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 52,
+        "Rating": 4.091813,
+        "Color": "Black",
+        "Size": "M"
+    },
+    {
+        "User ID": 1254,
+        "Product ID": 1019,
+        "Product Name": "Dress",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 35,
+        "Rating": 4.204617,
+        "Color": "Yellow",
+        "Size": "XL"
+    },
+    {
+        "User ID": 1942,
+        "Product ID": 1036,
+        "Product Name": "Sweater",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 99,
+        "Rating": 4.84917,
+        "Color": "Yellow",
+        "Size": "S"
+    },
+    {
+        "User ID": 2220,
+        "Product ID": 1106,
+        "Product Name": "Dress",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 20,
+        "Rating": 3.072544,
+        "Color": "White",
+        "Size": "XL"
+    },
+    {
+        "User ID": 2937,
+        "Product ID": 968,
+        "Product Name": "Shoes",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 104,
+        "Rating": 2.073911,
+        "Color": "Red",
+        "Size": "M"
+    },
+    {
+        "User ID": 2880,
+        "Product ID": 963,
+        "Product Name": "Dress",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 17,
+        "Rating": 0.827235,
+        "Color": "Blue",
+        "Size": "M"
+    },
+    {
+        "User ID": 2587,
+        "Product ID": 1039,
+        "Product Name": "Jeans",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 36,
+        "Rating": 1.718958,
+        "Color": "Blue",
+        "Size": "XL"
+    },
+    {
+        "User ID": 2290,
+        "Product ID": 1090,
+        "Product Name": "Sweater",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 41,
+        "Rating": 2.735209,
+        "Color": "Red",
+        "Size": "M"
+    },
+    {
+        "User ID": 2330,
+        "Product ID": 995,
+        "Product Name": "T-shirt",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 41,
+        "Rating": 0.908986,
+        "Color": "Red",
+        "Size": "S"
+    },
+    {
+        "User ID": 2416,
+        "Product ID": 1013,
+        "Product Name": "T-shirt",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 74,
+        "Rating": 2.458127,
+        "Color": "Yellow",
+        "Size": "S"
+    }
+]

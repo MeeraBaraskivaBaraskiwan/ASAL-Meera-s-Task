@@ -19,11 +19,13 @@ class Config:
     RABBITMQ_USER: str = os.getenv('RABBITMQ_USER', 'guest')
     RABBITMQ_PASSWORD: str = os.getenv('RABBITMQ_PASSWORD', 'guest')
     RABBITMQ_QUEUE: str = os.getenv('RABBITMQ_QUEUE', 'file_processing_queue')
+    #Broken Files Queue
+    RABBITMQ_BROKEN_QUEUE: str = os.getenv('RABBITMQ_BROKEN_QUEUE', 'broken_queue')
     
 
     INCOMING_DIR: Path = Path(os.getenv('INCOMING_DIR', 'Incoming-data'))
     ARCHIVE_DIR: Path = Path(os.getenv('ARCHIVE_DIR', 'Archived-data'))
-    
+    BROKEN_DIR: Path = Path(os.getenv('BROKEN_DIR', 'Broken-data')) 
   
     TABLE_NAME: str = os.getenv('TABLE_NAME', 'fashion_sales')
     
@@ -36,6 +38,9 @@ class Config:
         if cls.RABBITMQ_PASSWORD == 'guest':
             print("WARNING: Using default RabbitMQ password")
         
+        cls.INCOMING_DIR.mkdir(exist_ok=True)
+        cls.ARCHIVE_DIR.mkdir(exist_ok=True)
+        cls.BROKEN_DIR.mkdir(exist_ok=True)
         return True
     
   
@@ -46,3 +51,5 @@ config = Config()
 if __name__ == "__main__":
     config.validate()
     print(f"\nDatabase URL: {config.get_database_url()}")
+    print(f"Main Queue: {config.RABBITMQ_QUEUE}")
+    print(f"Broken Queue: {config.RABBITMQ_BROKEN_QUEUE}")

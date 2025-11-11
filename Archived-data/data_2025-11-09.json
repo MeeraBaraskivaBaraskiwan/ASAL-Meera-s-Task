@@ -1,0 +1,112 @@
+[
+    {
+        "User ID": 2350,
+        "Product ID": 953,
+        "Product Name": "Sweater",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 91,
+        "Rating": 1.546828,
+        "Color": "White",
+        "Size": "XL"
+    },
+    {
+        "User ID": 2089,
+        "Product ID": 820,
+        "Product Name": "Dress",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 28,
+        "Rating": 1.13791,
+        "Color": "Yellow",
+        "Size": "XL"
+    },
+    {
+        "User ID": 2231,
+        "Product ID": 1198,
+        "Product Name": "Dress",
+        "Brand": "Adidas",
+        "Category": "Men's Fashion",
+        "Price": 94,
+        "Rating": 1.726435,
+        "Color": "Yellow",
+        "Size": "S"
+    },
+    {
+        "User ID": 1432,
+        "Product ID": 1078,
+        "Product Name": "T-shirt",
+        "Brand": "Gucci",
+        "Category": "Men's Fashion",
+        "Price": 115,
+        "Rating": 1.899927,
+        "Color": "Red",
+        "Size": "XL"
+    },
+    {
+        "User ID": 1037,
+        "Product ID": 899,
+        "Product Name": "T-shirt",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 85,
+        "Rating": 3.321235,
+        "Color": "Yellow",
+        "Size": "S"
+    },
+    {
+        "User ID": 1874,
+        "Product ID": 927,
+        "Product Name": "T-shirt",
+        "Brand": "Zara",
+        "Category": "Men's Fashion",
+        "Price": 96,
+        "Rating": 3.252124,
+        "Color": "Blue",
+        "Size": "M"
+    },
+    {
+        "User ID": 2167,
+        "Product ID": 1013,
+        "Product Name": "Jeans",
+        "Brand": "Nike",
+        "Category": "Men's Fashion",
+        "Price": 117,
+        "Rating": 3.271709,
+        "Color": "Red",
+        "Size": "XL"
+    },
+    {
+        "User ID": 1467,
+        "Product ID": 1110,
+        "Product Name": "Shoes",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 58,
+        "Rating": 0.994823,
+        "Color": "Blue",
+        "Size": "L"
+    },
+    {
+        "User ID": 2724,
+        "Product ID": 906,
+        "Product Name": "Dress",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 86,
+        "Rating": 1.038694,
+        "Color": "Red",
+        "Size": "M"
+    },
+    {
+        "User ID": 2665,
+        "Product ID": 883,
+        "Product Name": "Dress",
+        "Brand": "H&M",
+        "Category": "Men's Fashion",
+        "Price": 65,
+        "Rating": 0.343076,
+        "Color": "Blue",
+        "Size": "M"
+    }
+]

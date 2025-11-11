@@ -1,0 +1,21 @@
+User ID,Product ID,Product Name,Brand,Category,Price,Rating,Color,Size
+85,1,Shoes,Adidas,Men's Fashion,70,2.421,White,L
+80,2,Jeans,Gucci,Men's Fashion,37,3.38,Yellow,M
+12,3,Shoes,H&M,Women's Fashion,65,4.252,Blue,M
+65,4,Sweater,Nike,Men's Fashion,17,3.621,White,M
+11,5,Shoes,Zara,Women's Fashion,79,4.483,Blue,XL
+63,6,Dress,Zara,Women's Fashion,97,4.867,Yellow,S
+29,7,T-shirt,H&M,Women's Fashion,81,1.684,Blue,S
+46,8,Dress,H&M,Women's Fashion,62,2.432,White,S
+95,9,Shoes,Zara,Women's Fashion,108,4.7,Blue,XL
+86,10,Jeans,H&M,Women's Fashion,84,3.599,Blue,L
+27,11,T-shirt,Nike,Men's Fashion,108,2.662,White,L
+29,12,Sweater,H&M,Women's Fashion,16,4.647,Yellow,S
+13,13,Sweater,H&M,Women's Fashion,81,1.324,Blue,XL
+24,14,Shoes,Gucci,Men's Fashion,78,4.098,Black,L
+78,15,Sweater,Zara,Men's Fashion,16,3.739,White,L
+23,16,Dress,Zara,Women's Fashion,22,3.856,Red,M
+86,17,Jeans,Gucci,Women's Fashion,21,1.728,Yellow,M
+75,18,Sweater,Zara,Men's Fashion,18,2.615,Black,S
+66,19,T-shirt,Adidas,Women's Fashion,88,2.739,Black,S
+63,20,Jeans,Gucci,Men's Fashion,62,4.299,Blue,XL

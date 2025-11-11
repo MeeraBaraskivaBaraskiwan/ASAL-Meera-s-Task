@@ -1,0 +1,21 @@
+User ID,Product ID,Product Name,Brand,Category,Price,Rating,Color,Size
+78,1,Shoes,Nike,Women's Fashion,80,1.71,Black,S
+30,2,Shoes,Gucci,Men's Fashion,29,3.473,Red,S
+40,3,T-shirt,Nike,Women's Fashion,36,1.247,Red,S
+48,4,Sweater,Nike,Women's Fashion,23,4.49,Black,L
+23,5,Sweater,Gucci,Women's Fashion,42,3.715,Blue,M
+23,6,Sweater,Zara,Men's Fashion,95,3.507,Yellow,L
+52,7,Dress,H&M,Men's Fashion,112,4.899,Yellow,L
+34,8,T-shirt,Nike,Women's Fashion,91,4.091,Red,M
+88,9,Sweater,Nike,Men's Fashion,20,2.82,Yellow,S
+71,10,Shoes,Adidas,Women's Fashion,22,3.171,Black,L
+62,11,Dress,Gucci,Women's Fashion,25,3.241,Blue,S
+38,12,Dress,Zara,Men's Fashion,38,3.582,White,L
+25,13,T-shirt,H&M,Women's Fashion,42,3.083,White,M
+91,14,T-shirt,Zara,Men's Fashion,21,2.601,White,L
+72,15,Dress,Adidas,Women's Fashion,98,4.136,Yellow,S
+84,16,T-shirt,H&M,Women's Fashion,114,4.809,Red,XL
+54,17,Shoes,Gucci,Women's Fashion,14,4.338,Yellow,M
+94,18,Jeans,Nike,Women's Fashion,27,3.345,Blue,L
+47,19,Dress,Nike,Women's Fashion,31,4.291,Red,XL
+86,20,Shoes,Gucci,Women's Fashion,58,2.885,White,XL
