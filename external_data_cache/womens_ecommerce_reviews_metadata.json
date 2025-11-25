@@ -1,0 +1,19 @@
+{
+  "row_count": 23486,
+  "column_count": 11,
+  "columns": [
+    "Unnamed: 0",
+    "Clothing ID",
+    "Age",
+    "Title",
+    "Review Text",
+    "Rating",
+    "Recommended IND",
+    "Positive Feedback Count",
+    "Division Name",
+    "Department Name",
+    "Class Name"
+  ],
+  "downloaded_at": "2025-11-17T11:42:49.096399",
+  "data_hash": "4e99b01a04ff8631922dd8eabae925f4"
+}
